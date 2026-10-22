@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Local machine config
+local.properties
+
+# Misc
+captures/
+.externalNativeBuild/
+.cxx/
+.DS_Store
+
+# Release keystore + credentials (machine-local secrets)
+release/

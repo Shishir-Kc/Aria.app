@@ -1,0 +1,4 @@
+<resources>
+    <!-- Framework theme exists only until Compose paints its first frame. -->
+    <style name="Theme.Aria" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
