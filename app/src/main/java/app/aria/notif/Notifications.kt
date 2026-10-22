@@ -51,6 +51,9 @@ object Notifications {
             .setSmallIcon(R.drawable.ic_stat_aria) // setSmallIcon is required — null icon throws
             .setContentTitle(title)
             .setContentText(body)
+            // Lock-screen: body text visible even when the device is locked.
+            // (System-level lock-screen privacy settings still take precedence.)
+            .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
             .setAutoCancel(true)
             .build()
         context.getSystemService(NotificationManager::class.java)
